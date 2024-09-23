@@ -6,7 +6,7 @@ CXXFLAGS = -std=c++11 -Wall -g
 TARGET = LinkedListTest
 
 # Source files
-SRC = main.cpp unorderedLinkedList.cpp linkedListType.cpp
+SRC = testProgLinkedList.cpp unorderedLinkedList.cpp linkedListType.cpp
 
 # Object files (replace .cpp with .o)
 OBJ = $(SRC:.cpp=.o)
